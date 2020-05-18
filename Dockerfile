@@ -2,10 +2,10 @@ FROM ucsdets/scipy-ml-notebook
 
 RUN pip install pillow
 RUN pip install pytesseract
-RUN pip install scenedetect --user
-RUN pip install plotly --user
+RUN pip install scenedetect
+RUN pip install plotly
 RUN pip install psutil
-RUN pip install librosa --user
+RUN pip install librosa
 RUN pip install moviepy
 RUN pip install SpeechRecognition
 RUN pip install pydub
