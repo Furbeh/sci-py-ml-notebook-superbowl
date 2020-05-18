@@ -12,5 +12,6 @@ RUN pip install pydub
 USER root
 
 RUN apt-get -y install tesseract-ocr
+RUN conda install -c plotly plotly-orca==1.2.1 psutil requests
 
 USER $NB_UID:$NB_GID
